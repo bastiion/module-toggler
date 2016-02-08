@@ -14,9 +14,9 @@ var argv = optimist.usage('enable modules, that are linked in anohter dir.\n Usa
     .describe('p', 'Prefix added to the link name (p.e. ".conf")').argv;
 
 
-var availPath = argv.a;//'/etc/apache2/sites-available/',
-    enabledPath = argv.e;//'/etc/apache2/sites-enabled/',
-    prefix = argv.p || '' ;
+var availPath = argv.a,
+    enabledPath = argv.e,
+    prefix = argv.p || '' ,
     lastCommand = argv.c,
     enCommand= argv['en-cmd']
     disCommad = argv['dis-cmd'];
@@ -31,7 +31,6 @@ var executeCommand = function(command, def) {
             console.log('exec error: ' + error);
           def.resolve(true);
       }
-
     });
     return def;
 };
