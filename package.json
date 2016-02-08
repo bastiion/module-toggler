@@ -1,8 +1,11 @@
 {
   "name": "module-toggler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tiny JavaScript based command line wizard to toggle modules and confs",
   "main": "index.js",
+  "bin": {
+    "module-toggler": "./index.js"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/bastiion/module-toggler/issues"
   },
-  "homepage": "https://github.com/bastiion/module-toggler#readme"
+  "homepage": "https://github.com/bastiion/module-toggler#readme",
+  "dependencies": {
+    "inquirer": "^0.11.4",
+    "optimist": "^0.6.1",
+    "q": "^1.4.1"
+  }
 }
