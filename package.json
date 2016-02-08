@@ -1,0 +1,26 @@
+{
+  "name": "module-toggler",
+  "version": "1.0.0",
+  "description": "Tiny JavaScript based command line wizard to toggle modules and confs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastiion/module-toggler.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "modules",
+    "sites",
+    "wizard"
+  ],
+  "author": "Sebastian Tilsch",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bastiion/module-toggler/issues"
+  },
+  "homepage": "https://github.com/bastiion/module-toggler#readme"
+}
