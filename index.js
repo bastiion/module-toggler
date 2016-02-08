@@ -1,6 +1,6 @@
 var inquirer = require('inquirer'),
     optimist = require('optimist'),
-    fs = require('fs')
+    fs = require('fs'),
     exec = require('child_process').exec,
     Q = require('q');
 
@@ -18,7 +18,7 @@ var availPath = argv.a,
     enabledPath = argv.e,
     prefix = argv.p || '' ,
     lastCommand = argv.c,
-    enCommand= argv['en-cmd']
+    enCommand= argv['en-cmd'],
     disCommad = argv['dis-cmd'];
 
 var executeCommand = function(command, def) {    
